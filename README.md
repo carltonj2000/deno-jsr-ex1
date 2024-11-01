@@ -6,3 +6,4 @@
 ## References
 
 - [fetch](https://youtu.be/oxVwTT-rZRo?si=YHOIxRVQjDMfLV9-)
+- [namespace api](https://youtu.be/p28ujFMrdA0?si=Uq-Cji07qr4skXzo)
