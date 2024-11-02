@@ -4,6 +4,7 @@
     "jsr:@carltonj2000/sing@0.1": "0.1.0",
     "npm:@types/node@*": "22.5.4",
     "npm:create-vite-extra@latest": "2.4.1",
+    "npm:fs@*": "0.0.1-security",
     "npm:path-to-regexp@6.2.1": "6.2.1",
     "npm:react@*": "18.3.1"
   },
@@ -26,6 +27,9 @@
         "picocolors",
         "prompts"
       ]
+    },
+    "fs@0.0.1-security": {
+      "integrity": "sha512-3XY9e1pP0CVEUCdj5BmfIZxRBTSDycnbqhIOGec9QYtmVH2fbLpj86CFWkrNOkt/Fvty4KZG5lTglL9j/gJ87w=="
     },
     "js-tokens@4.0.0": {
       "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
