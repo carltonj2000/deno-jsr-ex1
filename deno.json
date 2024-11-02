@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "exports": "./sing.ts",
   "license": "MIT",
+  "compilerOptions": {
+    "lib": ["dom"]
+  },
   "fmt": {
     "exclude": ["singing-app/"]
   },
@@ -14,6 +17,7 @@
     "format": "deno fmt && deno lint"
   },
   "imports": {
-    "@carltonj2000/sing": "jsr:@carltonj2000/sing@^0.1.0"
+    "@carltonj2000/sing": "jsr:@carltonj2000/sing@^0.1.0",
+    "react": "npm:react"
   }
 }
