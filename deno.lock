@@ -1,7 +1,13 @@
 {
   "version": "4",
   "specifiers": {
+    "jsr:@carltonj2000/sing@0.1": "0.1.0",
     "npm:create-vite-extra@latest": "2.4.1"
+  },
+  "jsr": {
+    "@carltonj2000/sing@0.1.0": {
+      "integrity": "53ec9378b4b545c7f954517c72ebda4fb9a0ef14eddeb70b83b09d2952465dba"
+    }
   },
   "npm": {
     "create-vite-extra@2.4.1": {
@@ -31,5 +37,10 @@
     "sisteransi@1.0.5": {
       "integrity": "sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg=="
     }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@carltonj2000/sing@0.1"
+    ]
   }
 }

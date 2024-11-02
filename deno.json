@@ -12,5 +12,8 @@
   "tasks": {
     "start": "deno sing.ts",
     "format": "deno fmt && deno lint"
+  },
+  "imports": {
+    "@carltonj2000/sing": "jsr:@carltonj2000/sing@^0.1.0"
   }
 }
