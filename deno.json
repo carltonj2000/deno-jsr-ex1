@@ -2,5 +2,15 @@
   "name": "@carltonj2000/sing",
   "version": "0.1.0",
   "exports": "./sing.ts",
-  "license": "MIT"
+  "license": "MIT",
+  "fmt": {
+    "exclude": ["singing-app/"]
+  },
+  "lint": {
+    "exclude": ["singing-app/"]
+  },
+  "tasks": {
+    "start": "deno sing.ts",
+    "format": "deno fmt && deno lint"
+  }
 }

@@ -12,7 +12,7 @@ if (response.body) {
         for await (const chunk of src) {
           yield chunk;
         }
-      })
+      }),
     );
   const reader = transformedStream.getReader();
   while (true) {
